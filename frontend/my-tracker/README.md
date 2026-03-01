@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Habit Tracker App - Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, full-stack habit tracking application that helps users build and maintain positive daily routines through personalized tools, reminders, motivational features, and in-depth progress insights.
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+## 📝 Project Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Habit Tracker App is designed to help users like "Sam" who struggle with consistency in building daily habits. The app provides structure, reminders, and motivation needed to build long-lasting habits through gamification, progress tracking, and social accountability.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Users can create custom habits, track their daily progress, maintain streaks, earn achievements, participate in challenges, and visualize their growth through detailed analytics. The app combines behavioral psychology principles with modern technology to make habit formation engaging and sustainable.
 
-### `npm test`
+## ✨ Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Core Features
+- **🔐 User Authentication** - Secure signup/login with JWT authentication
+- **📊 Dashboard** - Personalized dashboard showing daily progress and statistics
+- **✅ Habit Tracking** - Create, edit, and delete custom habits
+- **📅 Daily Logging** - Mark habits as complete with one click
+- **🔥 Streak Tracking** - Visual representation of consecutive days
+- **📈 Progress Analytics** - Charts and graphs showing habit completion trends
 
-### `npm run build`
+### Motivational Features
+- **🏆 Achievements System** - Unlock badges for reaching milestones
+- **🎯 Challenges** - Join community challenges and compete with others
+- **📱 Focus Timer** - Built-in Pomodoro timer for focused habit sessions
+- **📧 Smart Reminders** - Customizable notifications and email reminders
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Social Features
+- **👥 Community Challenges** - Participate in group challenges
+- **📤 Social Sharing** - Share progress with friends
+- **🏅 Leaderboards** - Compete with other users
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Advanced Features
+- **📊 Weekly/Monthly Reports** - Detailed progress reports
+- **📱 Offline Mode** - Track habits without internet connection
+- **🔄 Cross-device Sync** - Data syncs across all devices
+- **🎨 Custom Categories** - Organize habits by categories
+- **⚙️ Personalized Settings** - Customize app experience
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠️ Tech Stack Used
 
-### `npm run eject`
+### Frontend Technologies
+- **⚛️ React 18** - UI library
+- **🎨 Tailwind CSS** - Styling framework
+- **🧩 ShadCN UI** - Component library
+- **🔗 Axios** - HTTP client for API calls
+- **🔄 React Router DOM** - Routing
+- **📊 Recharts** - Data visualization
+- **🔥 React Hot Toast** - Toast notifications
+- **📁 Context API** - State management
+- **💅 Lucide React** - Icons
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Development Tools
+- **📦 npm** - Package manager
+- **🔄 Git** - Version control
+- **📝 VS Code** - Code editor
+- **🎯 ESLint** - Code linting
+- **✨ Prettier** - Code formatting
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📥 Installation Steps
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Prerequisites
+- Node.js (v18 or higher)
+- npm (v9 or higher)
+- Git
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Step-by-Step Installation
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
